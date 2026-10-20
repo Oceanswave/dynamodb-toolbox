@@ -8,7 +8,8 @@
     "eslint": "eslint \"src/**/*.{ts,js}\"",
     "test": "jest --watchAll",
     "test-ci": "jest --ci --coverage",
-    "prettier": "prettier --write \"src/**/*.{ts,js}\""
+    "prettier": "prettier --write \"src/**/*.{ts,js}\"",
+    "typecheck": "tsc --noEmit"
   },
   "prettier": {
     "singleQuote": true,
